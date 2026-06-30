@@ -17,7 +17,7 @@ function AIPlanner() {
       setLoading(true);
 
       const response = await axios.post(
-        "http://127.0.0.1:5000/generate-plan",
+        "https://taskguardianai-backend.onrender.com/generate-plan",
         {
           goal: goal,
         }
